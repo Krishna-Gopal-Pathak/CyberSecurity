@@ -25,6 +25,10 @@
      ```
      ![image](https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/e135e132-74c3-4506-b156-d2eb14361cfd)
 
-     
+- 5. Run drozer
+     ```bash
+     drozer.bat console connect
+     ```
+
 
      
