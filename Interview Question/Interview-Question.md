@@ -48,6 +48,30 @@
 - Proper validate all user input.
 - Use secure Database Configuration.
 
+1. Classic SQL Injection (SQLi)
+3. Blind SQL Injection
+4. Time-Based Blind SQL Injection
+5. Boolean-Based Blind SQL Injection
+6. Out-of-Band SQL Injection
+7. Union-Based SQL Injection
+8. Second-Order SQL Injection
+9. Time-Based Blind Second-Order SQL Injection
+10. Content-Based Blind Second-Order SQL Injection
+11. Error-Based SQL Injection
+12. Function-Based SQL Injection
+13. Stored Procedure Injection
+14. Inferential SQL Injection:Also known as "blind SQL injection,"
+
+Attacker manipulates an application's SQL query by injecting malicious SQL code into user-provided input fields or parameters. 
+Suppose you have a web application with a login form that uses the following SQL query to check user credentials:
+```
+SELECT * FROM users WHERE username = '$username' AND password = '$password';
+```
+- The application takes user inputs for username and password.
+- An attacker enters the following as the username input: admin' OR '1'='1.
+```
+SELECT * FROM users WHERE username = 'admin' OR '1'='1' AND password = '$password';
+```
 
 ## Insecure direct object references
 This type of vulnerability occurs when an application exposes a direct reference to an internal object, such as a file or database record. By manipulating the reference, an attacker can gain unauthorized access to the object.
