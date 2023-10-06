@@ -49,3 +49,9 @@ Custom Vulnerabilities: Analyze the app for vulnerabilities specific to its func
 5. Penetration Testing:
 
 If you have identified potential vulnerabilities, conduct penetration testing to validate their existence and assess their impact.
+
+**7. What is the Android Application Sandbox, and how does it impact the security of Android apps?**
+- The Android Application Sandbox is an isolation mechanism that restricts apps' access to system resources, enhancing security by preventing unauthorized access.
+
+**8. Explain the process of analyzing an Android app's source code and identifying security vulnerabilities using static analysis.**
+- Analyzing an Android app's source code using static analysis is an essential step in identifying security vulnerabilities and weaknesses in the app's codebase before it's executed.
