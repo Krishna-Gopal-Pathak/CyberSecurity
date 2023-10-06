@@ -49,7 +49,7 @@
 - Use secure Database Configuration.
 
 1. Classic SQL Injection (SQLi)
-3. Blind SQL Injection
+2. Blind SQL Injection
 4. Time-Based Blind SQL Injection
 5. Boolean-Based Blind SQL Injection
 6. Out-of-Band SQL Injection
@@ -75,6 +75,44 @@ SELECT * FROM users WHERE username = '$username' AND password = '$password';
 SELECT * FROM users WHERE username = 'admin' OR '1'='1' AND password = '$password';
 ```
 In this case, because '1'='1' always evaluates to true, the query returns all rows from the users table, effectively granting unauthorized access to the application as the admin user.
+
+**2. Blind SQL injection**
+- Blind SQL injection is a type of SQL injection attack that exploits vulnerabilities in web applications to steal data by asking the database a series of true or false questions 
+
+
+**3. Boolean-Based Blind SQL Injection**
+- Boolean-Based Blind SQL Injection an attacker injects malicious SQL code to determine if their injected condition is true or false.
+- They do this by observing the application's behavior or responses, as the application typically does not directly display database error messages or query results to the user.
+
+**Prevention**
+- Avoid displaying detailed error messages to users
+- Input Validation
+
+**4. Time-Based Blind SQL Injection**
+- Time-Based Blind SQL Injection is a type of SQL injection attack where an attacker injects malicious SQL code into a vulnerable web application, introducing time delays in the application's responses. The attacker then measures the time it takes for the application to respond.
+
+**5. Out-of-Band SQL Injection**
+- Out-of-Band SQL Injection is a type of SQL injection attack where an attacker exploits a vulnerability in a web application to inject malicious SQL code that triggers external communication with a server controlled by the attacker
+
+
+**6. Union-Based SQL Injection**
+- Combines the results of multiple SELECT statements to fetch data from multiple tables as a single result set.
+
+**7. Second-Order SQL Injection**
+- Second-Order SQL Injection is a type of SQL injection attack where the attacker injects malicious SQL code into a web application, and the application stores the injected code in a database. The attack is executed later when the application retrieves and uses the stored data, leading to SQL injection vulnerabilities.
+
+**8. Time-Based Blind Second-Order SQL Injection**
+- In this attack, the attacker injects malicious SQL code that introduces time delays when executed, even though the results of the injection are not immediately visible. The delayed execution occurs at a later point in time when the application processes the injected data.
+
+**9. Content-Based Blind Second-Order SQL Injection**
+- In this attack, the attacker injects malicious SQL code into a web application, and the application stores the injected data in its database without immediate execution. The execution of the injected code occurs at a later point in time when the application retrieves and displays the stored data.
+
+**10. Error-Based SQL Injection**
+- The attacker intentionally injects malicious SQL code that causes the application to generate error messages containing valuable information.
+
+
+
+
 
 
 ## Insecure direct object references
