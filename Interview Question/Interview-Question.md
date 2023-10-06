@@ -62,7 +62,9 @@
 13. Stored Procedure Injection
 14. Inferential SQL Injection:Also known as "blind SQL injection,"
 
-Attacker manipulates an application's SQL query by injecting malicious SQL code into user-provided input fields or parameters. 
+**1. Classic SQL Injection (SQLi)**
+- Attacker manipulates an application's SQL query by injecting malicious SQL code into user-provided input fields or parameters.
+   
 Suppose you have a web application with a login form that uses the following SQL query to check user credentials:
 ```
 SELECT * FROM users WHERE username = '$username' AND password = '$password';
