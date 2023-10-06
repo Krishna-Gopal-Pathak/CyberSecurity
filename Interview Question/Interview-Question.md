@@ -72,6 +72,8 @@ SELECT * FROM users WHERE username = '$username' AND password = '$password';
 ```
 SELECT * FROM users WHERE username = 'admin' OR '1'='1' AND password = '$password';
 ```
+In this case, because '1'='1' always evaluates to true, the query returns all rows from the users table, effectively granting unauthorized access to the application as the admin user.
+
 
 ## Insecure direct object references
 This type of vulnerability occurs when an application exposes a direct reference to an internal object, such as a file or database record. By manipulating the reference, an attacker can gain unauthorized access to the object.
