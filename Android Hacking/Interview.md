@@ -55,3 +55,18 @@ If you have identified potential vulnerabilities, conduct penetration testing to
 
 **8. Explain the process of analyzing an Android app's source code and identifying security vulnerabilities using static analysis.**
 - Analyzing an Android app's source code using static analysis is an essential step in identifying security vulnerabilities and weaknesses in the app's codebase before it's executed.
+
+**9. What are the common methods for detecting and exploiting insecure data transmission in Android apps?**
+- Common methods include intercepting unencrypted network traffic, exploiting weak SSL/TLS configurations, and conducting MiTM attacks.
+
+**A typical MitM attack involves intercepting and potentially altering communications between a user and a server. This can be done by:**
+
+ARP Spoofing: Manipulating ARP (Address Resolution Protocol) tables to redirect network traffic through the attacker's machine.
+
+DNS Spoofing: Altering DNS (Domain Name System) responses to redirect users to malicious servers.
+
+SSL/TLS Stripping: Downgrading secure connections to unencrypted ones to eavesdrop on data.
+
+Rogue Wi-Fi Access Points: Setting up fake Wi-Fi hotspots to capture traffic from nearby devices.
+
+Proxy Servers: Using proxy servers to intercept and inspect traffic passing through them.
