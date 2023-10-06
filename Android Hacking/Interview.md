@@ -73,3 +73,6 @@ Proxy Servers: Using proxy servers to intercept and inspect traffic passing thro
 
 **11. How would you test an Android app for authentication and authorization vulnerabilities?**
 - Test for weak authentication methods, improper session management, password policies, and authorization flaws to identify vulnerabilities.
+
+**12. What tools and methodologies do you use for Android app penetration testing?**
+- Tools include Burp Suite, MobSF, APKTool, and methods involve static analysis, dynamic analysis, network traffic analysis, API testing, and more.
