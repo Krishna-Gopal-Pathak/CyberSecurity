@@ -70,3 +70,6 @@ SSL/TLS Stripping: Downgrading secure connections to unencrypted ones to eavesdr
 Rogue Wi-Fi Access Points: Setting up fake Wi-Fi hotspots to capture traffic from nearby devices.
 
 Proxy Servers: Using proxy servers to intercept and inspect traffic passing through them.
+
+**11. How would you test an Android app for authentication and authorization vulnerabilities?**
+- Test for weak authentication methods, improper session management, password policies, and authorization flaws to identify vulnerabilities.
