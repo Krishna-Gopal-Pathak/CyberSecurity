@@ -155,11 +155,11 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
 - RFI stands for remote file inclusion, which means an attacker can include a file from a remote server and execute it on your server.
 
 ## Cross-Site Request Forgery
-- Attacker tricks victim to perform action that they do not intend to perform.<br/>
+- Attacker tricks victim to perform action that they do not intend to perform.<br/><br/>
 **Vulnerability Include:**
 - Changing password.
 - Delete Account.
-- Transfer funds.<br/>
+- Transfer funds.<br/><br/>
 **How to Prevent**
 - Use Firewall.
 - Use CSRF Token
@@ -174,9 +174,9 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
   - Utilize the "Origin" header to verify the origin of incoming requests. This header can help prevent cross-origin requests from being processed as valid.
  
 **SSRF [Server Side Request Forgery]**
-- Allow attacker to make request to unintended location using server side application.
+- Allow attacker to make request to unintended location using server side application.<br/><br/>
   **Vulnerability Include:**
-  - Unauthorized action
+  - Unauthorized action<br/><br/>
   **How to Prevent:**
   - Validate URL Request, Parameter of the request, Ip address of the server
   - Use Firewall.
