@@ -182,3 +182,27 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
   - Validate URL Request, Parameter of the request, Ip address of the server
   - Use Firewall.
 
+**XXE [XML External Entity]**
+- The primary objective of an XXE attack is to manipulate or compromise the logic of an XML-based application or service.
+- XXE attacks involve injecting unintended XML content and/or structures into an XML message or document.
+- If successful, an XXE attack can alter the intended logic of the application or service, leading to various security vulnerabilities or data leakage.
+- XXE attacks occur when an attacker can influence the processing of XML data by introducing external entities or references to external resources (such as files or web services).
+- Depending on the specific XML parser and configuration, successful XXE attacks can result in reading sensitive files, performing denial-of-service attacks, or executing arbitrary code on the server.
+  **Vulnerability Include:**
+  - denial-of-service
+  - executing arbitrary code on the server 
+    
+  **How to Prevent:**
+  - Validate all XML input
+  - disable external entity expansion in XML parsers
+ 
+
+
+## CRLF Injection
+- CRLF injection is a web application security vulnerability where an attacker inserts special characters into input data. These characters can manipulate web server responses, potentially leading to various attacks, including HTTP response splitting, session fixation, or cross-site scripting (XSS).<br/>
+**Vulnerability Include:**
+  - session fixation
+  - cross-site scripting (XSS)<br/>
+**How to Prevent:**
+Input Validation and Sanitization
+Security Headers: Implement security headers like HTTP Strict Transport Security (HSTS) and Content Security Policy (CSP) to enhance the security of your web application.
