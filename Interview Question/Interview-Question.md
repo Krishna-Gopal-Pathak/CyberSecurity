@@ -150,3 +150,6 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
 
 **LFI [Local file inclusion]**
 - LFI stands for Local File Inclusion, which means an attacker can access files on your server through a vulnerable parameter or input in a web application. Allowing attackers to include and view local files on the server.
+
+**RFI [Remote file inclusion]**
+- RFI stands for remote file inclusion, which means an attacker can include a file from a remote server and execute it on your server.
