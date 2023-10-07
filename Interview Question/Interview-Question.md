@@ -203,6 +203,17 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
 **Vulnerability Include:**
   - session fixation
   - cross-site scripting (XSS)<br/>
+  
 **How to Prevent:**
 Input Validation and Sanitization
 Security Headers: Implement security headers like HTTP Strict Transport Security (HSTS) and Content Security Policy (CSP) to enhance the security of your web application.
+
+## HTTP request smuggling
+- HTTP request smuggling happens when an attacker creates special HTTP requests that confuse a web server.
+- There are two ways that a web server can figure out where one request ends and the next one begins: through the "Transfer-Encoding" and "Content-Length" headers in the HTTP request.
+- The trick is that the attacker sends a single request that contains both types of headers. Because different parts of the server might look at these headers differently, it can lead to confusion. This confusion can cause the server to mishandle the request.
+- When this happens, it can create security problems, like letting the attacker see sensitive data or do things they shouldn't be able to do on the website.
+**Vulnerability Include:**
+ - cache poisoning
+ - session fixation
+ - unauthorized data access
