@@ -139,3 +139,14 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
 **Prevention**
 - Disable unnecessary features.
 - Monitor your application.
+
+## File Inclusion
+
+**Impact of File Inclusion**
+- Code execution on server
+- Code execution on client side
+- Dos attack
+- Information Disclosure
+
+**LFI [Local file inclusion]**
+- LFI stands for Local File Inclusion, which means an attacker can access files on your server through a vulnerable parameter or input in a web application. Allowing attackers to include and view local files on the server.
