@@ -183,11 +183,7 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
   - Use Firewall.
 
 ## XXE [XML External Entity]
-- The primary objective of an XXE attack is to manipulate or compromise the logic of an XML-based application or service.
-- XXE attacks involve injecting unintended XML content and/or structures into an XML message or document.
-- If successful, an XXE attack can alter the intended logic of the application or service, leading to various security vulnerabilities or data leakage.
-- XXE attacks occur when an attacker can influence the processing of XML data by introducing external entities or references to external resources (such as files or web services).
-- Depending on the specific XML parser and configuration, successful XXE attacks can result in reading sensitive files, performing denial-of-service attacks, or executing arbitrary code on the server.
+- XML injection is a type of security vulnerability that occurs when an attacker injects malicious XML content into an application's input fields. The goal is often to manipulate the XML structure or trigger parsing errors to exploit vulnerabilities in the application.
   **Vulnerability Include:**
   - denial-of-service
   - executing arbitrary code on the server 
