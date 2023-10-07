@@ -260,3 +260,6 @@ Template Injection: When the web application renders the page, it processes the 
 **How to Prevent:**
   - validate user input
   - Use built-in escaping
+
+## SSL/TLS handshake
+- The SSL/TLS handshake is a crucial part of securing online communications, such as HTTPS for web browsing and secure email transmission. It ensures that data transmitted between the client and server remains confidential, authenticates the server's identity, and protects against eavesdropping and tampering.
