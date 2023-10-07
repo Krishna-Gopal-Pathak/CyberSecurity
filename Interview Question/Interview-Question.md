@@ -217,3 +217,50 @@ Security Headers: Implement security headers like HTTP Strict Transport Security
  - cache poisoning
  - session fixation
  - unauthorized data access
+
+## Host Header Attack
+- This attack typically involves changing the Host header value to a malicious or unexpected domain.
+**Vulnerability Include:**
+  - Unauthorized Access
+  - Session Fixation
+  - Cache Poisoning
+  - Cross-Site Scripting (XSS)
+  - Information Disclosure
+**How to Prevent:**
+  - Proper input validation
+  - server configuration
+ 
+## SSTI (Server-Side Template Injection)
+- SSTI is a security vulnerability that occurs when an attacker can inject malicious code into a server-side template engine.
+- Attackers inject malicious template code, which is then executed by the server-side template engine.
+**Vulnerability Include:**
+  - data leaks
+  - remote code execution
+  - website defacement
+**How to Prevent:**
+  - input validation 
+  - secure configuration of template engines
+ 
+## SSI    
+- SSI vulnerabilities occur when web servers improperly handle Server-Side Includes, which are used to include content or execute specific actions on the server.
+proper server configuration
+**Vulnerability Include:**
+  - data leaks
+  - remote code execution
+  - website defacement
+**How to Prevent:**
+input validation 
+Content Security Policy (CSP)
+
+## CSTI
+Client-Side Templates: Web applications often use client-side templating languages like Mustache, Handlebars, or AngularJS to render dynamic content on the client side (in the user's browser).
+
+Untrusted Input: CSTI vulnerabilities occur when these templating engines process untrusted user input without proper validation or escaping. This means that an attacker can inject malicious template code into input fields or URLs.
+
+Template Injection: When the web application renders the page, it processes the injected template code along with the legitimate content. This can result in the execution of the attacker's template code in the user's browser.
+**Vulnerability Include:**
+  - Cross-Site Scripting (XSS) attacks
+  - data leakage
+**How to Prevent:**
+  - validate user input
+  - Use built-in escaping
