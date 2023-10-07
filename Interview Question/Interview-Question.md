@@ -177,7 +177,6 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
 - Allow attacker to make request to unintended location using server side application.<br/><br/>
   **Vulnerability Include:**
   - Unauthorized action<br/><br/>
-
   **How to Prevent:**
   - Validate URL Request, Parameter of the request, Ip address of the server
   - Use Firewall.
