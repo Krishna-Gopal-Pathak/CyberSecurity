@@ -182,7 +182,7 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
   - Validate URL Request, Parameter of the request, Ip address of the server
   - Use Firewall.
 
-**XXE [XML External Entity]**
+## XXE [XML External Entity]
 - The primary objective of an XXE attack is to manipulate or compromise the logic of an XML-based application or service.
 - XXE attacks involve injecting unintended XML content and/or structures into an XML message or document.
 - If successful, an XXE attack can alter the intended logic of the application or service, leading to various security vulnerabilities or data leakage.
