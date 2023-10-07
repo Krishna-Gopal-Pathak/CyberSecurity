@@ -153,3 +153,13 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
 
 **RFI [Remote file inclusion]**
 - RFI stands for remote file inclusion, which means an attacker can include a file from a remote server and execute it on your server.
+
+## Cross-Site Request Forgery
+- Attacker tricks victim to perform action that they do not intend to perform.<br/>
+**Vulnerability Include:**
+- Changing password.
+- Delete Account.
+- Transfer funds.<br/>
+**How to Prevent**
+- Use Firewall.
+- Use CSRF Token
