@@ -163,3 +163,12 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
 **How to Prevent**
 - Use Firewall.
 - Use CSRF Token
+- Proper Session Management:
+  - Use secure session cookies
+  - implement session timeouts, and regenerate session identifiers upon login or privilege changes.
+- Validate Referrer Header:
+  - Check the Referer header on incoming requests to verify that the request originated from a trusted source. While this is not foolproof (as the header can be spoofed), it adds an additional layer of security.
+- Use Same-Site Cookies:
+  - Set the "SameSite" attribute on cookies to "Strict" or "Lax" to mitigate CSRF attacks. This restricts how cookies are sent in cross-origin requests.
+- Implement the "Origin" Header:
+  - Utilize the "Origin" header to verify the origin of incoming requests. This header can help prevent cross-origin requests from being processed as valid.
