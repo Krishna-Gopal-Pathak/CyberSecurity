@@ -249,11 +249,8 @@ input validation
 Content Security Policy (CSP)
 
 ## CSTI
-Client-Side Templates: Web applications often use client-side templating languages like Mustache, Handlebars, or AngularJS to render dynamic content on the client side (in the user's browser).
+- CSTI vulnerabilities occur when these templating engines process untrusted user input without proper validation or escaping. This means that an attacker can inject malicious template code into input fields or URLs.
 
-Untrusted Input: CSTI vulnerabilities occur when these templating engines process untrusted user input without proper validation or escaping. This means that an attacker can inject malicious template code into input fields or URLs.
-
-Template Injection: When the web application renders the page, it processes the injected template code along with the legitimate content. This can result in the execution of the attacker's template code in the user's browser.
 **Vulnerability Include:**
   - Cross-Site Scripting (XSS) attacks
   - data leakage
