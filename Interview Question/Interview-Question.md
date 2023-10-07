@@ -173,7 +173,7 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
 - Implement the "Origin" Header:
   - Utilize the "Origin" header to verify the origin of incoming requests. This header can help prevent cross-origin requests from being processed as valid.
  
-**SSRF [Server Side Request Forgery]**
+## SSRF [Server Side Request Forgery]
 - Allow attacker to make request to unintended location using server side application.<br/><br/>
   **Vulnerability Include:**
   - Unauthorized action
