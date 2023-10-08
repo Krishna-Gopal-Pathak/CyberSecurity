@@ -248,6 +248,11 @@ proper server configuration
 input validation 
 Content Security Policy (CSP)
 
+**Mostly SSI work on these web pages but it's limited to these**
+- .stm
+- .shtml
+- .shtm
+
 ## CSTI
 - CSTI vulnerabilities occur when these templating engines process untrusted user input without proper validation or escaping. This means that an attacker can inject malicious template code into input fields or URLs.
 
