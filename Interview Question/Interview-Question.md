@@ -289,16 +289,29 @@ Security Headers: Implement security headers like HTTP Strict Transport Security
 - server should be protected from beast as well as crime attacks
   
 **ssl service recognition by nmap**
-   ```nmap -sV --reason -PN -n --top-ports 100 www.hackersera.com```
+```bash
+nmap -sV --reason -PN -n --top-ports 100 www.hackersera.com
+```
 
 **checking for certificate information, weak cipher and sslv2 via nmap**
-```nmap -sV --reason -PN -n --top-ports 100 www.hackersera.com```
-```nmap --script ssl-cert,ssl-enum-ciphers -p 443,465 www.hackersera.com```
+```bash
+nmap -sV --reason -PN -n --top-ports 100 www.hackersera.com
+```
+```bash
+nmap --script ssl-cert,ssl-enum-ciphers -p 443,465 www.hackersera.com
+```
 
 **checking for client-initiated renegotiation and secure renegotation via openssl**
-```nmap -sV --reason -PN -n --top-ports 100 www.hackersera.com```
- ```openssl s_client -connect www.hackersera.com:PORT```
-
+```bash
+nmap -sV --reason -PN -n --top-ports 100 www.hackersera.com
+```
+```bash
+openssl s_client -connect www.hackersera.com:PORT
+```
+```bash
+HEAD / HTTP/1.1
+R
+```
 
 
 
