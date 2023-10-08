@@ -231,6 +231,7 @@ Security Headers: Implement security headers like HTTP Strict Transport Security
 - Attackers inject malicious template code, which is then executed by the server-side template engine.
 **Vulnerability Include:**
   - data leaks
+  - execute arbitrary code
   - remote code execution
   - website defacement
 **How to Prevent:**
@@ -239,20 +240,24 @@ Security Headers: Implement security headers like HTTP Strict Transport Security
  
 ## SSI    
 - SSI vulnerabilities occur when web servers improperly handle Server-Side Includes, which are used to include content or execute specific actions on the server.
-proper server configuration
+
 **Vulnerability Include:**
   - data leaks
   - remote code execution
   - website defacement
 **How to Prevent:**
-input validation 
-Content Security Policy (CSP)
+- proper server configuration
+- input validation 
+- Content Security Policy (CSP)
 
 **Mostly SSI work on these web pages but it's limited to these**
 - .stm
 - .shtml
 - .shtm
-
+- /bin
+- search
+- input field
+  
 ## CSTI
 - CSTI vulnerabilities occur when these templating engines process untrusted user input without proper validation or escaping. This means that an attacker can inject malicious template code into input fields or URLs.
 
@@ -265,3 +270,26 @@ Content Security Policy (CSP)
 
 ## SSL/TLS handshake
 - The SSL/TLS handshake is a crucial part of securing online communications, such as HTTPS for web browsing and secure email transmission. It ensures that data transmitted between the client and server remains confidential, authenticates the server's identity, and protects against unauthorized access and tampering.
+
+
+## Cryptography Vulnerabilities
+**Testing for weak cryptography**
+- Weak ssl/tls protocols, ciphers, keys, and insufficient transport layer protocol.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
