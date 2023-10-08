@@ -259,4 +259,4 @@ Content Security Policy (CSP)
   - Use built-in escaping
 
 ## SSL/TLS handshake
-- The SSL/TLS handshake is a crucial part of securing online communications, such as HTTPS for web browsing and secure email transmission. It ensures that data transmitted between the client and server remains confidential, authenticates the server's identity, and protects against eavesdropping and tampering.
+- The SSL/TLS handshake is a crucial part of securing online communications, such as HTTPS for web browsing and secure email transmission. It ensures that data transmitted between the client and server remains confidential, authenticates the server's identity, and protects against unauthorized access and tampering.
