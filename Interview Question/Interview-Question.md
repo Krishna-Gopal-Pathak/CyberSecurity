@@ -313,7 +313,13 @@ HEAD / HTTP/1.1
 R
 ```
 
-
+**Testing ssl/tls vulnerability with sslyze**
+```bash
+nmap -sV --reason -PN -n --top-ports 100 squareops.com
+```
+```bash
+docker run -it sslyze squareops.com:443
+```
 
 
 
