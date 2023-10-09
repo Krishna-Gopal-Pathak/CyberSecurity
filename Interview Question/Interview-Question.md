@@ -325,8 +325,8 @@ docker run -it sslyze squareops.com:443
 - An attacker may be able to exploit mitm attacks and decrypt communication b/w server and client
 - **How to detect**
   - text file of subdomain of this website tomtom.com
-  ```bash
-  prod-cambridge-proxy-vip.tomtom.com
+```bash
+prod-cambridge-proxy-vip.tomtom.com
 beat.tomtom.com
 msolearning.tomtom.com
 media.tomtom.com
@@ -508,6 +508,7 @@ workplace.tomtom.com
 developer-hybrid.tomtom.com
 email.tomtom.com
 ```
+
   ```bash
   nmap -sV --version-light -Pn --script ssl-poodle -p 443 -iL tomtom.txt   // this domain is vulnerable beat.tomtom.com
   ```
