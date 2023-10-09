@@ -119,11 +119,12 @@ Proxy Servers: Using proxy servers to intercept and inspect traffic passing thro
 
 **static analysis using MobSF:**
 
-Code Review:
+<ins>Code Review</ins>
+- Examine source code or binary for security vulnerabilities.
+- Check for insecure data storage, hardcoded secrets, and insecure communication.
+- Verify input validation, permissions, and authentication.
 
-Examine source code or binary for security vulnerabilities.
-Check for insecure data storage, hardcoded secrets, and insecure communication.
-Verify input validation, permissions, and authentication.
+
 API Security:
 
 Review how the app interacts with external APIs.
