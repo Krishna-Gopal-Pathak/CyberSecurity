@@ -325,7 +325,10 @@ docker run -it sslyze squareops.com:443
 - An attacker may be able to exploit mitm attacks and decrypt communication b/w server and client
 - **How to detect**
   ```bash
-  nmap -sV --version-light -Pn --script ssl-poodle -p 443 -iL tomtom.txt
+  nmap -sV --version-light -Pn --script ssl-poodle -p 443 -iL tomtom.txt   // this domain is vulnerable beat.tomtom.com
+  ```
+  ```bash
+  nmap --script ssl-enum-ciphers -p 443 -iL beat.tomtom.com
   ```
 
 
