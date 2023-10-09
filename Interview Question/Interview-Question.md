@@ -330,6 +330,9 @@ docker run -it sslyze squareops.com:443
   ```bash
   nmap --script ssl-enum-ciphers -p 443 beat.tomtom.com
   ```
+  ```bash
+  curl -v3 -X HEAD https://beat.tomtom.com
+  ```
 
 
 
