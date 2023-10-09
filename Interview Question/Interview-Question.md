@@ -520,7 +520,17 @@ email.tomtom.com
   curl -v3 -X HEAD https://beat.tomtom.com
   ```
 
+## Blind XSS
+- it is a type of stored xss where xss stored in the database or server.
 
+**Attack on**
+- contact us
+- feedback page
+- ticket generation
+- chat app
+- log viewers
+- any application that requires users interaction
+- submit complaint
 
 
 
