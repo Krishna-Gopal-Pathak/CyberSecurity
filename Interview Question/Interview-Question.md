@@ -34,6 +34,8 @@
 - MFA
 - Network segmentation 
 
+**Exploit**
+- Path Traversal  
 
 ## SQL Injection
 - Attacker manipulate SQL queries by injecting malicious input.
