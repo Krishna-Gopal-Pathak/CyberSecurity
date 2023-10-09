@@ -548,7 +548,8 @@ email.tomtom.com
 - submit complaint
 
 
-
+## HSTS
+- HSTS is designed to ensure that web connections are made securely over HTTPS
 
 
 
