@@ -328,7 +328,7 @@ docker run -it sslyze squareops.com:443
   nmap -sV --version-light -Pn --script ssl-poodle -p 443 -iL tomtom.txt   // this domain is vulnerable beat.tomtom.com
   ```
   ```bash
-  nmap --script ssl-enum-ciphers -p 443 -iL beat.tomtom.com
+  nmap --script ssl-enum-ciphers -p 443 beat.tomtom.com
   ```
 
 
