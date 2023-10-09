@@ -321,7 +321,12 @@ nmap -sV --reason -PN -n --top-ports 100 squareops.com
 docker run -it sslyze squareops.com:443
 ```
 
-
+**Poodle attack SSLV3**
+- An attacker may be able to exploit mitm attacks and decrypt communication b/w server and client
+- **How to detect**
+  ```bash
+  nmap -sV --version-light -Pn --script ssl-poodle -p 443 -iL tomtom.txt
+  ```
 
 
 
