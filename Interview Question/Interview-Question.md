@@ -323,6 +323,7 @@ docker run -it sslyze squareops.com:443
 
 **Poodle attack SSLV3**
 - An attacker may be able to exploit mitm attacks and decrypt communication b/w server and client
+- you can try on these ports ftp, imaps, pop3s
 - **How to detect**
   - text file of subdomain of this website tomtom.com
 ```bash
