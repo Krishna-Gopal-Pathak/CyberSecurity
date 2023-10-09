@@ -553,5 +553,6 @@ email.tomtom.com
 ```bash
 curl -s -D- web url | grep -i Strict
 ```
-
-
+```bash
+hsecscan url 
+```
