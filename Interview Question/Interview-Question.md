@@ -520,8 +520,9 @@ email.tomtom.com
   curl -v3 -X HEAD https://beat.tomtom.com
   ```
 
-## Blind XSS
-- it is a type of stored xss where xss stored in the database or server.
+## Blind XSS vs Stored XSS
+- In Stored XSS, the attacker can inject malicious code into a web page that is then stored on the server and executed every time a user visits that page. 
+- In Blind XSS, the attacker injects malicious code into a web page that is not immediately executed.
 
 **Attack on**
 - contact us
