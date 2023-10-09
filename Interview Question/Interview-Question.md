@@ -550,6 +550,8 @@ email.tomtom.com
 
 ## HSTS
 - HSTS is designed to ensure that web connections are made securely over HTTPS
-
+```bash
+curl -s -D- web url | grep -i Strict
+```
 
 
