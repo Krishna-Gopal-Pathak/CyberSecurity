@@ -172,6 +172,9 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
 - Use databases – don’t include files on a web server that can be compromised, use a database instead
 - Better server instructions – make the server send download headers automatically instead of executing files in a specified directory
 
+**CVSS=**AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+**Overall CVSS Score:** 7.5
+**Impact:** High
 **RFI [Remote file inclusion]**
 - RFI stands for remote file inclusion, which means an attacker can include a file from a remote server and execute it on your server.
 
