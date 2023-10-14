@@ -625,8 +625,15 @@ xhttp.send();
 </html>
 ```
 
+<b>Description</b>
+<p>- CORS (Cross-Origin Resource Sharing) is a web security mechanism that controls which origins are allowed to access resources on a different domain. In this scenerio Threat actors can exploit CORS misconfigurations by manipulate or intercept cross-origin requests for data integrity breaches, and compromise the security of web applications.</p>
 
-
+<b>Recommendation</b>
+<p>
+- Limit the Access-Control-Allow-Origin header to trusted sites, avoiding dynamic reflection of origins without proper validation.
+- Avoid using 'null' in the Access-Control-Allow-Origin header and configure CORS headers carefully for both private and public servers.
+- Refrain from utilizing wildcards in internal networks to prevent exposing internal resources to untrusted external domains.
+</p>
 
 
 
