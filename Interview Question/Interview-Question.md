@@ -585,7 +585,10 @@ hsecscan url
 - Capture the request
 - Spider the host
 - Search <embed?> in url and send that url to Repeater.
+- Add Origin: http://evil.com
 <img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/40b1e9d5-08cd-4dfd-b4f9-2f09b3916b6a" width="600" background-size="cover"/>
+<img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/e628a3a5-6b07-4d1d-bfa4-3e945414c90a" width="600" background-size="cover"/>
+<img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/d933b906-1d39-4104-8ad7-fb716efdc223" width="600" background-size="cover"/>
 
 
 - How to check Insecure CORS
