@@ -596,6 +596,7 @@ hsecscan url
   ```
   curl https://squareops.com -H "Origin:http://hackersera.com" -I
   ```
+<img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/b38505f3-4793-4b14-8efa-a1b6d5d1dde8" width="600" background-size="cover"/>
 
 
 
