@@ -566,3 +566,42 @@ curl -s -D- web url | grep -i Strict
 ```bash
 hsecscan url 
 ```
+
+
+## CORS
+- Poorly Implemented, Best Case For Attack:
+  <p>Access-Control-Allow-Origin: https://attacker.com</p>
+  <p>Access-Control-Allow-Credentials:true</p>
+
+- Poorly Implemented, Exploitable:
+  <p>Access-Control-Allow-Origin: null</p>
+  <p>Access-Control-Allow-Credentials:true</p>
+
+- Poorly Implemented, Not Exploitable:
+  <p>Access-Control-Allow-Origin: *</p>
+  <p>Access-Control-Allow-Credentials:true</p>
+
+- How to check Insecure CORS
+  ```
+  curl http://any.com -H "Origin:http://hackersera.com" -I
+  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
