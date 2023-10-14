@@ -638,8 +638,13 @@ xhttp.send();
 </p>
 
 
+# File Upload
+<b>Content-type bypass</b>
+image/png
+image/jpeg
+image/gif
 
-
+<img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/b3123767-7516-4e31-b98f-f79c3328fc1a" width="600" background-size="cover"/>
 
 
 
