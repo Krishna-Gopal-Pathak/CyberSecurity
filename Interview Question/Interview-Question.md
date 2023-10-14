@@ -581,9 +581,16 @@ hsecscan url
   <p>Access-Control-Allow-Origin: *</p>
   <p>Access-Control-Allow-Credentials:true</p>
 
+<b>Insecure CORS through Request Header</b>
+- Capture the request
+- Spider the host
+- Search <embed?> in url and send that url to Repeater.
+<img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/40b1e9d5-08cd-4dfd-b4f9-2f09b3916b6a" width="600" background-size="cover"/>
+
+
 - How to check Insecure CORS
   ```
-  curl http://any.com -H "Origin:http://hackersera.com" -I
+  curl http://any.com -H "Origin:http://hackersera.com" -Ihttps://appinventiv.com/
   ```
 
 
