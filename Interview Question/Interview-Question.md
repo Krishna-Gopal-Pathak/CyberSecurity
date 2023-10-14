@@ -594,7 +594,7 @@ hsecscan url
 
 - How to check Insecure CORS
   ```
-  curl http://any.com -H "Origin:http://hackersera.com" -Ihttps://appinventiv.com/
+  curl https://squareops.com -H "Origin:http://hackersera.com" -I
   ```
 
 
