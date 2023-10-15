@@ -644,7 +644,8 @@ xhttp.send();
 <p>image/jpeg</p>
 <p>image/gif</p>
 <p>text/php</p>
-
+application/octet-stream
+SetHandler application/x-httpd-php
 <img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/b3123767-7516-4e31-b98f-f79c3328fc1a" width="600" background-size="cover"/>
 
 <img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/68e34397-fb6e-4f91-add5-2ba60c166e50" width="600" background-size="cover"/>
@@ -691,6 +692,11 @@ Now in this case capture the request and suffix like below:
 <b>File Parsing Rules Bypass</b>
 $deny_ext = array(".php",".php5",".php4",".php3",".php2",".php1",".html",".htm",".phtml",".pht",".pHp",".pHp5",".pHp4",".pHp3",".pHp2",".pHp1",".Html",".Htm",".pHtml",".jsp",".jspa",".jspx",".jsw",".jsv",".jspf",".jtml",".jSp",".jSpx",".jSpa",".jSw",".jSv",".jSpf",".jHtml",".asp",".aspx",".asa",".asax",".ascx",".ashx",".asmx",".cer",".aSp",".aSpx",".aSa",".aSax",".aScx",".aShx",".aSmx",".cEr",".sWf",".swf",".ini");
         
+<img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/77fa5218-16af-4b20-b765-2d50d2606596" width="600" background-size="cover"/>
+![image](https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/907ae47e-7543-4c82-b9d3-f0afe1e653e3)
+![image](https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/3384d035-feea-42d0-ac6c-53aa636512f2)
+![image](https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/2e5df0f1-5a19-4b3e-961f-5de4fddeed96)
+![image](https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/ac939feb-2da3-4f99-95dd-29de1bb44686)
 
 
 
