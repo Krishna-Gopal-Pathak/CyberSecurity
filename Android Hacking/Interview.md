@@ -176,5 +176,14 @@ cat jakhar.aseem.diva_preferences.xml
 ```
 <img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/a7c5027e-c51c-47d9-be42-a3ba8b0b6661" width="600" background-size="cover"/>
 
+<b>log sensitive number</b>
+<p>username</p>
+<p>password</p>
+<p>tokens</p>
+<p>keys</p>
+<p>mail</p>
+<p>PII</p>
+<p>card number</p>
+<p>account number</p>
 
 
