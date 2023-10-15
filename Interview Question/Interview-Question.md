@@ -735,6 +735,7 @@ http://localhost/file-upload/include.php?file=upload/5920231015141736.gif
 <b>Second Method</b>
 <p>copy /b img.jpeg+phpinfo.php img2.jpeg</p>
 <img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/ea211a99-1246-4d02-bc72-6fd306f36d1b" width="600" background-size="cover"/>
+<img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/bfbbd6ce-e83e-414c-a749-02d9498de9f7" width="600" background-size="cover"/>
 
 
 
