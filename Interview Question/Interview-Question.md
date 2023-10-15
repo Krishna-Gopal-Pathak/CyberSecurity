@@ -723,6 +723,7 @@ $deny_ext = array(".php",".php5",".php4",".php3",".php2",".html",".htm",".phtml"
 <img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/09403319-39ec-464a-bf55-becca9c47237" width="600" background-size="cover"/>
 
 <b>Picture Prefix Bypass Method</b>
+<p>Suppose there is file upload where you can upload image file but you want to upload file like phpinfo.php. Then below method work</p>
 ADD= GIF89a
 
 http://localhost/file-upload/include.php?file=
