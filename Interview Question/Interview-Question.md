@@ -709,6 +709,11 @@ $deny_ext = array(".php",".php5",".php4",".php3",".php2",".html",".htm",".phtml"
 <p>WIndows removing space automatically</p>
 <p>For example:- upload a file "xyz.php"</p>
 <p>Now:- capture request and give space after extention "xyz.php "</p>
+<p>Now:- capture request and give dot after extention "xyz.php."</p>
+<p>Now:- capture request and give ::$DATA after extention "xyz.php::$DATA"</p>
+<img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/49f7f5ae-2a99-4eef-9149-f87b7e02ccfc" width="600" background-size="cover"/>
+<img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/3f61583c-1fe1-4a89-bb58-559a28e92c3e" width="600" background-size="cover"/>
+
 <p>This will work</p>
 
 
