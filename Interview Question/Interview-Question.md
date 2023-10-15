@@ -731,6 +731,10 @@ http://localhost/file-upload/include.php?file=upload/5920231015141736.gif
 <img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/60698929-0718-479a-948e-007d94d0a82a" width="600" background-size="cover"/>
 <img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/3f1da695-9241-4fc5-a114-ae8f88cb53bd" width="600" background-size="cover"/>
 
+<b>Second Method</b>
+<p>copy /b img.jpeg+phpinfo.php img2.jpeg</p>
+<img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/ea211a99-1246-4d02-bc72-6fd306f36d1b" width="600" background-size="cover"/>
+
 
 
 
