@@ -166,6 +166,14 @@ Inspect WebView usage for potential security issues, especially related to JavaS
 
 
 <b>DIVA application - Insecure Data Store Part-1</b>
+```
+adb devices
+adb -s 192.168.168.101:5555 shell
+cd /data/data
+cd jakhar.aseem.diva
+cd shared_prefs
+cat jakhar.aseem.diva_preferences.xml
+```
 <img src="https://github.com/Krishna-Gopal-Pathak/CyberSecurity/assets/142927819/a7c5027e-c51c-47d9-be42-a3ba8b0b6661" width="600" background-size="cover"/>
 
 
