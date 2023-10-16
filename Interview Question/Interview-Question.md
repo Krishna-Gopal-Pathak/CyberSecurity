@@ -281,6 +281,9 @@ Security Headers: Implement security headers like HTTP Strict Transport Security
 - /bin
 - search
 - input field
+
+## SSTI VS SSI
+- SSI involves the inclusion of external files, while SSTI involves the injection of templates into a template engine. 
   
 ## CSTI
 - CSTI vulnerabilities occur when these templating engines process untrusted user input without proper validation or escaping. This means that an attacker can inject malicious template code into input fields or URLs.
