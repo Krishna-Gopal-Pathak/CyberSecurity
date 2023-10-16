@@ -163,9 +163,9 @@ Poorly configured servers, frameworks, and libraries can leads to expose of sens
 - Information Disclosure
 
 **LFI [Local file inclusion]**
-- LFI refers to the vulnerability that allows an attacker to trick a web application into including files on the server that are not intended to be accessible directly.  In this scenerio attacker injecting specially crafted input, such as directory traversal sequences or malicious file path references, into the vulnerable web application leading to a complete system compromise.
+- LFI refers to the vulnerability that allows an attacker to trick a web application into including files on the server that are not intended to be accessible directly.  In this scenerio attacker injecting specially crafted input, such as directory traversal sequences or malicious file path references, into the vulnerable web application leading to a complete system compromise.<br/>
 **Impact**
--The impacts of an exploited Local File Inclusion (LFI) vulnerability can include unauthorized access to sensitive data, server compromise, execution of arbitrary code, and potentially complete control over the affected system, leading to data breaches, service disruptions, and overall system compromise.
+-The impacts of an exploited Local File Inclusion (LFI) vulnerability can include unauthorized access to sensitive data, server compromise, execution of arbitrary code, and potentially complete control over the affected system, leading to data breaches, service disruptions, and overall system compromise.<br/>
 **Recommendation**
 -ID assignation – save your file paths in a secure database and give an ID for every single one, this way users only get to see their ID without viewing or altering the path
 - Whitelisting  – use verified and secured whitelist files and ignore everything else
